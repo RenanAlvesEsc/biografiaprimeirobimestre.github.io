@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+img:hover {
+    animation: rodar 1s infinite cubic-bezier(1,1,1,1);
+}
+@keyframes rodar {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: aqua;
+        color: blueviolet;
+    }
+}
